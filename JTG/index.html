@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JTG</title>
+        <link href="./assets/css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="comments">
+            <div class="comments-wrapper">
+                <div class="new-comment">
+                    <textarea rows=4 placeholder="Enter you comment here" id="1"></textarea>
+                    <div class="buttons">
+                        <button class="button" onclick="cancelNewComment('1')">Cancel</button>
+                        <button class="bg-blue button" onclick="postNewComment('1')">Post</button>
+                    </div>
+                </div>
+                <div class="comments-listing" id="comments-listing"></div>
+            </div>
+        </div>
+        <script src="./assets/js/index.js"></script>
+    </body>
+</html>
